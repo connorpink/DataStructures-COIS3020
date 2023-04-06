@@ -1,4 +1,18 @@
-﻿using Assignment3KDTree;
+﻿/*==========================================================================|
+| KDTree                                                                    |
+|                                                                           |
+| File name: KDTree                                                         |
+|                                                                           |
+| Written by:   Adrian Lim Zheng Ting                                       |
+|               Matthew Makary                                              |
+|               Connor Pink                                                 |
+|                                                                           |
+| Purpose: to add insert, delete, contain, and any necessary                |
+|          supporting methods for the KDTree class.                         |
+|                                                                           |
+|==========================================================================*/
+
+using Assignment3KDTree;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,6 +23,7 @@ using System.Xml.Linq;
 
 namespace Assignment3KDTree
 {
+    // point class
     public class Point
     {
         private float[] coord;
@@ -85,6 +100,7 @@ namespace Assignment3KDTree
             return "(" + string.Join(",", coordStrings) + ")";
         }
     }
+    // node class
     public class KDNode
     {
         public Point point;                // node in a kd tree
@@ -105,18 +121,25 @@ namespace Assignment3KDTree
         }
         public String toString()
         {
-            /* return point info */
+            /* return point as string */
             return this.point.toString();
         }
     }
+    // KD Tree class
     public class KDTree
     {
         private KDNode Root; // set the root node of the tree
 
+        // public insert 
+        // inserts given point into the tree
+        // calls private insert to carry out the actual insertion
         public void insert(Point x)
         {
             Root = insert(x, Root, 0);
         }
+        // private insert 
+        // inserts given point into the tree
+        // Duplicate points are not inserted
         private KDNode insert(Point x, KDNode p, int cutDim)
         {
             if (p == null)                              // fell out of tree
@@ -138,6 +161,7 @@ namespace Assignment3KDTree
             return p;
         }
 
+        // findMin method to support delete method 
         public Point findMin(KDNode p, int i)       //get min point along dim 1
         {
             if (p == null)                          // fell out of tree?
@@ -159,7 +183,8 @@ namespace Assignment3KDTree
                 return minAlongDim(q, findMin(p.right, i), i);
             }
         }
-
+        // minAlongDim method
+        // supports findMin method
         public Point minAlongDim(Point p1, Point p2, int i)     // return smaller point on dim i
         {
             if (p2 == null || p1.Get(i) <= p2.Get(i))                   // p1[i] is short for p1.get(i)
@@ -168,15 +193,22 @@ namespace Assignment3KDTree
                 return p2;
         }
 
+        // public delete
+        // deletes the given point from the tree
+        // calls private method to carry out the actual removal
         public void delete(Point x)
         {
             Root = delete(x, Root);
         }
+
+        // delete
+        // deletes the given point from the tree
+        // Does nothing if item is not found
         private KDNode delete(Point x, KDNode p)
         {
             if (p == null)                                  // fell out of tree?
             {
-                throw new Exception("point does not exist");
+                return p;//point does not exist
             }
             else if (p.point.Equals(x))                     // found it
             {
@@ -191,7 +223,7 @@ namespace Assignment3KDTree
                     p.right = delete(p.point, p.left);      // move left subtree to right!
                     p.left = null;                          // left subtree is now empty
                 }
-                else                                        // deleted point in point
+                else                                        // else leaf node
                 {
                     p = null;                               // remove this leaf
                 }
@@ -206,12 +238,17 @@ namespace Assignment3KDTree
             }
             return p;
         }
+
+        // public print 
+        // calls private print with refrence to Root
         public void print()
         {
             print(Root, 0);
 
         }
-        public void print(KDNode root, int index)
+        // private print method
+        // does the actual printing
+        private void print(KDNode root, int index)
         {
             if (root != null)
             { 
@@ -221,10 +258,14 @@ namespace Assignment3KDTree
             }
         }
 
+        // public contains method
+        // calls the private contains method with reference to root for starting point
         public bool contains(Point p)
         {
             return contains(p, Root);
         }
+        // private contains
+        // does the actual searching
         // Returns true if point p is found; false otherwise
         private bool contains(Point p, KDNode root)
         {
@@ -296,13 +337,13 @@ namespace Assignment3KDTree
 
             /* testing the contains method for testPoint1 {3,4} now that it has been removed */
             Console.WriteLine(" A contains testPoint1 {3, 4}? : " + A.contains(testPoint1));
-            Console.ReadKey();
 
             /* testing  removing another point */
             Console.WriteLine(" Now testPoint2 {1, 5} is removed");
             A.delete(testPoint2);
             A.print();
-            Console.WriteLine(" A contains testPoint1 {3, 4}? : " + A.contains(testPoint2));
+            Console.WriteLine(" A contains testPoint1 {1, 5}? : " + A.contains(testPoint2));
+            Console.ReadKey();
 
         }
     }
