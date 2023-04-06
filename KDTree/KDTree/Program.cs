@@ -101,7 +101,7 @@ namespace Assignment3KDTree
 
         public Boolean inLeftSubtree(Point x) // is x in left subtree?
         {
-            return x.GetDim() < point.GetDim();
+            return x.Get(cutDim) < point.Get(cutDim);
         }
         public String toString()
         {
@@ -113,9 +113,9 @@ namespace Assignment3KDTree
     {
         private KDNode Root; // set the root node of the tree
 
-        public void insert(Point x, int cutDim)
+        public void insert(Point x)
         {
-            Root = insert(x, Root, cutDim);
+            Root = insert(x, Root, 0);
         }
         private KDNode insert(Point x, KDNode p, int cutDim)
         {
@@ -125,7 +125,7 @@ namespace Assignment3KDTree
             }
             else if (p.point.Equals(x))
             {
-                throw new Exception("duplicate point"); // duplicate data point!
+                return p; // point already exists
             }
             else if (p.inLeftSubtree(x))
             {              // insert into left subtree    
@@ -209,6 +209,7 @@ namespace Assignment3KDTree
         public void print()
         {
             print(Root, 0);
+
         }
         public void print(KDNode root, int index)
         {
@@ -250,21 +251,59 @@ namespace Assignment3KDTree
     {
         static void Main(string[] args)
         {
-            
+            /* testing for 2 dimensions */
             KDTree A = new KDTree();
+
+            /* testing inserting a point */
+            Console.WriteLine("testing inserting testPoint1 {3,4} ");
             Point testPoint1 = new Point(2); // 2 dimensional point
-            Point testPoint2 = new Point(2); // 2 dimensional point
-            testPoint1.Set(0, 3.0f);
-            testPoint2.Set(0, 1.0f);
-            A.insert(testPoint1, 0);
-            A.insert(testPoint2, 0);
+            testPoint1.Set(0, 3.0f); // set point to have x: 3 and y: 4
+            testPoint1.Set(1, 4.0f); // set point to have x: 3 and y: 4
+            A.insert(testPoint1); // insert point
             A.print();
-            Console.WriteLine(" A contains testPoint1 ? : " + A.contains(testPoint1));
+
+            /* testing that adding a duplicate point does nothing */
+            Console.WriteLine("testing inserting testPoint1 {3,4} again which is a duplicate and should not insert");
+            A.insert(testPoint1);
+            A.print();
+
+            /* testing inserting 2 points */
+            Point testPoint2 = new Point(2); // 2 dimensional point
+            testPoint2.Set(0, 1.0f); // set point to have x: 1 and y: 5
+            testPoint2.Set(1, 5.0f); // set point to have x: 1 and y: 5
+            A.insert(testPoint2); // insert point
+            Console.WriteLine("two 2-dimensional points: {3,4} and {1,5}");
+            A.print(); // show tree with 2 2 dimensional points
+
+            /* testing inserting many points */
+            Console.WriteLine(" Now adding 10 random points:");
+            Random rnd = new Random();
+            for (int i=0; i < 10; i++)
+            {
+                Point testPoint = new Point(2);
+                testPoint.Set(0, (float)rnd.Next(10));
+                testPoint.Set(1, (float)rnd.Next(10));
+                A.insert(testPoint);
+            }
+            A.print();
+            /* testing the contains method for testPoint1 {3,4} */
+            Console.WriteLine(" A contains testPoint1 {3, 4}? : " + A.contains(testPoint1));
+
+            /* testing the delete method for testPoint1 {3,4} */
+            Console.WriteLine(" Now testPoint1 {3, 4} is removed");
             A.delete(testPoint1);
             A.print();
-            Console.WriteLine(" A contains testPoint1 ? : " + A.contains(testPoint1));
+
+            /* testing the contains method for testPoint1 {3,4} now that it has been removed */
+            Console.WriteLine(" A contains testPoint1 {3, 4}? : " + A.contains(testPoint1));
             Console.ReadKey();
-            
+
+            /* testing  removing another point */
+            Console.WriteLine(" Now testPoint2 {1, 5} is removed");
+            A.delete(testPoint2);
+            A.print();
+            Console.WriteLine(" A contains testPoint1 {3, 4}? : " + A.contains(testPoint2));
+
         }
     }
 }
