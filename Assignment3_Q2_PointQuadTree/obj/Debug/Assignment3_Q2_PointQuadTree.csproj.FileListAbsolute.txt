@@ -1,0 +1,7 @@
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\bin\Debug\Assignment3_Q2_PointQuadTree.exe.config
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\bin\Debug\Assignment3_Q2_PointQuadTree.exe
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\bin\Debug\Assignment3_Q2_PointQuadTree.pdb
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\obj\Debug\Assignment3_Q2_PointQuadTree.csproj.AssemblyReference.cache
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\obj\Debug\Assignment3_Q2_PointQuadTree.csproj.CoreCompileInputs.cache
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\obj\Debug\Assignment3_Q2_PointQuadTree.exe
+C:\Users\AA\Documents\Trent\2023 winter\COIS 3020\Assignments\Assignment 3 git\COIS-3020-Assignment-3\Assignment3_Q2_PointQuadTree\obj\Debug\Assignment3_Q2_PointQuadTree.pdb
