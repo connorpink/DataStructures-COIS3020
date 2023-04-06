@@ -1,0 +1,32 @@
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.exe
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.deps.json
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.runtimeconfig.json
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.runtimeconfig.dev.json
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.dll
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\ref\KDTree.dll
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\bin\Debug\net5.0\KDTree.pdb
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.csproj.AssemblyReference.cache
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.AssemblyInfoInputs.cache
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.AssemblyInfo.cs
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.csproj.CoreCompileInputs.cache
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.dll
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\ref\KDTree.dll
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.pdb
+G:\My Drive\Trent\Year 3\Winter 2022\Courses\COIS-3020\Tests\Test2\Code\KDTree\KDTree\obj\Debug\net5.0\KDTree.genruntimeconfig.cache
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.exe
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.deps.json
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.runtimeconfig.json
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.runtimeconfig.dev.json
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.dll
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\ref\KDTree.dll
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\bin\Debug\net5.0\KDTree.pdb
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.csproj.AssemblyReference.cache
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.AssemblyInfoInputs.cache
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.AssemblyInfo.cs
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.csproj.CoreCompileInputs.cache
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.dll
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\ref\KDTree.dll
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.pdb
+C:\Users\cpink\Documents\Code\Github Projects\COIS-3020-Assignment-3\KDTree\KDTree\obj\Debug\net5.0\KDTree.genruntimeconfig.cache
