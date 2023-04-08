@@ -8,25 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cpink\\.nuget\\packages\\": {},
+    "C:\\Users\\AA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cpink\\Documents\\Code\\Github Projects\\COIS-3020-Assignment-3\\KDTree\\KDTree\\KDTree.csproj",
+      "projectUniqueName": "C:\\Users\\AA\\Documents\\Trent\\2023 winter\\COIS 3020\\Assignments\\Assignment 3 git\\COIS-3020-Assignment-3\\KDTree\\KDTree\\KDTree.csproj",
       "projectName": "KDTree",
-      "projectPath": "C:\\Users\\cpink\\Documents\\Code\\Github Projects\\COIS-3020-Assignment-3\\KDTree\\KDTree\\KDTree.csproj",
-      "packagesPath": "C:\\Users\\cpink\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cpink\\Documents\\Code\\Github Projects\\COIS-3020-Assignment-3\\KDTree\\KDTree\\obj\\",
+      "projectPath": "C:\\Users\\AA\\Documents\\Trent\\2023 winter\\COIS 3020\\Assignments\\Assignment 3 git\\COIS-3020-Assignment-3\\KDTree\\KDTree\\KDTree.csproj",
+      "packagesPath": "C:\\Users\\AA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AA\\Documents\\Trent\\2023 winter\\COIS 3020\\Assignments\\Assignment 3 git\\COIS-3020-Assignment-3\\KDTree\\KDTree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\cpink\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -68,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,21 @@
-﻿using System;
+﻿/*==========================================================================|
+| PointQuadTree                                                             |
+|                                                                           |
+| File name: PointQuadTree                                                  |
+|                                                                           |
+| Written by:   Adrian Lim Zheng Ting                                       |
+|               Matthew Makary                                              |
+|               Connor Pink                                                 |
+|                                                                           |
+| Purpose: takes any number of Points of any dimension, and arranges        |
+|          them for efficient searches. The points have to be of the        |
+|          same dimension.                                                  |
+|                                                                           |
+|                                                                           |
+|==========================================================================*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

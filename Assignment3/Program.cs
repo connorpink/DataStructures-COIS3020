@@ -1,5 +1,18 @@
-﻿using System;
+﻿/*==========================================================================|
+| Point                                                                     |
+|                                                                           |
+| File name: Point                                                          |
+|                                                                           |
+| Written by:   Adrian Lim Zheng Ting                                       |
+|               Matthew Makary                                              |
+|               Connor Pink                                                 |
+|                                                                           |
+| Purpose: represents a point in kd space, where k is any integer.          |
+|                                                                           |
+|                                                                           |
+|==========================================================================*/
 
+using System;
 namespace Assignment3
 {
     internal class Program
